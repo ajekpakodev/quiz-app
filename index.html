@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <meta name="theme-color" content="#1e90ff">
+      <link rel="stylesheet" href="style.css">
+      <title>Quiz App</title>
+   </head>
+   <body>
+      <h1>Quiz App</h1>
+      <div class="quiz-container">
+         <main>
+            <section class="status-panel" style="display:none">
+               <p><span>score</span><span id="score">0</span></p>
+               <p><span>time</span><span id="time" style="color:mediumseagreen">20</span></p>
+            </section>
+            <p id="progress-bar" style="display:none">Question <span id="question-index"></span> of <span id="questions-len"></span></p>
+            <section id="question">
+               <p>Press the start button to start the quiz</p>
+            </section>
+            <section id="options">
+               <button id="start-btn">Start</button>
+            </section>
+         </main>
+      </div>
+   </body>
+   <script type="module" src="script.js"></script>
+</html>
